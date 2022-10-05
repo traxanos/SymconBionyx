@@ -1,0 +1,18 @@
+{
+    "id": "{08901AFD-F840-0719-F4E6-8E8D9F99FEFF}",
+    "name": "BionyxConfigurator",
+    "type": 4,
+    "vendor": "ekey",
+    "aliases": [
+        "bionyx Configurator",
+        "bionyx Konfigurator"
+    ],
+    "parentRequirements": [
+        "{75771AE6-9936-98EB-42EE-B2BF45DA602A}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{65FFE758-91B8-DBFC-64AC-AF78DF10BC10}"
+    ],
+    "prefix": "EKEY"
+}

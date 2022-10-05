@@ -1,0 +1,15 @@
+{
+    "translations": {
+        "de": {
+            "Authorized": "Autorisiert",
+            "Unauthorized": "Unautorisiert",
+            "Authorize": "Autorisieren",
+            "Bionyx Description": "Bionyx Description DE",
+            "Syncronize": "Syncronisieren",
+            "Reregister": "Reregistrieren"
+        },
+        "en": {
+            "Bionyx Description": "Bionyx Description EN"
+        }
+    }
+}

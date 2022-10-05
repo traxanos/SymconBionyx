@@ -1,0 +1,45 @@
+{
+    "elements": [
+        {
+            "type": "Image",
+            "width": "96px",
+            "onClick": "echo 'https://www.ekey.net';",
+            "link": true,
+            "image": ""
+        },
+        {
+            "type": "Label",
+            "caption": "BIONYX_CONFIGURATOR_DESCRIPTION"
+        },
+        {
+            "type": "SelectCategory",
+            "name": "CategoryID",
+            "caption": "Category"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Configurator",
+            "name": "BionyxConfigurator",
+            "caption": "bionyx Systems",
+            "delete": true,
+            "sort": {
+                "column": "name",
+                "direction": "ascending"
+            },
+            "columns": [
+                {
+                    "caption": "System ID",
+                    "name": "systemID",
+                    "width": "350px"
+                },
+                {
+                    "caption": "Name",
+                    "name": "name",
+                    "width": "auto"
+                }
+            ],
+            "values": []
+        }
+    ]
+}

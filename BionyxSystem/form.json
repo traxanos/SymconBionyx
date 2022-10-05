@@ -1,0 +1,69 @@
+{
+    "elements": [
+        {
+            "type": "Image",
+            "width": "96px",
+            "onClick": "echo 'https://www.ekey.net';",
+            "link": true,
+            "image": ""
+        },
+        {
+            "type": "Label",
+            "caption": "BIONYX_SYSTEM_DESCRIPTION"
+        },
+        {
+            "type": "ValidationTextBox",
+            "name": "systemID",
+            "caption": "System ID",
+            "enabled": false
+        },
+        {
+            "type": "List",
+            "caption": "Hooks",
+            "name": "Hooks",
+            "add": true,
+            "delete": true,
+            "columns": [
+                {
+                    "name": "hookID",
+                    "visible": false,
+                    "add": ""
+                },
+                {
+                    "name": "location",
+                    "caption": "Location",
+                    "width": "400px",
+                    "add": "",
+                    "edit": {
+                        "type": "ValidationTextBox"
+                    }
+                },
+                {
+                    "name": "function",
+                    "caption": "Function",
+                    "width": "auto",
+                    "add": "",
+                    "edit": {
+                        "type": "ValidationTextBox"
+                    }
+                },
+                {
+                    "name": "script",
+                    "caption": "Script",
+                    "width": "100px",
+                    "add": "",
+                    "edit": {
+                        "type": "SelectScript"
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Button",
+            "label": "Test",
+            "onClick": "echo EKEY_Test($id);"
+        }
+    ]
+}

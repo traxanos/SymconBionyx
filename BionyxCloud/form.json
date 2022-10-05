@@ -1,0 +1,76 @@
+{
+    "elements": [
+        {
+            "type": "Image",
+            "width": "96px",
+            "onClick": "echo 'https://www.ekey.net';",
+            "link": true,
+            "image": ""
+        },
+        {
+            "type": "Label",
+            "caption": "Bionyx Description"
+        },
+        {
+            "type": "RowLayout",
+            "items": [
+                {
+                    "type": "Label",
+                    "caption": "Status:"
+                },
+                {
+                    "type": "Label",
+                    "name": "Status",
+                    "caption": "Unauthorized"
+                }
+            ]
+        },
+        {
+            "type": "Select",
+            "name": "SocketIP",
+            "caption": "Host IP-Address (IP-Symcon)"
+        },
+        {
+            "type": "NumberSpinner",
+            "name": "SocketPort",
+            "caption": "Host Port (IP-Symcon)"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Button",
+            "label": "Authorize",
+            "onClick": "echo EKEY_Authorize($id);"
+        },
+        {
+            "type": "Button",
+            "label": "Syncronize",
+            "onClick": "echo EKEY_Sync($id);"
+        },
+        {
+            "type": "Button",
+            "label": "Reregister",
+            "onClick": "echo EKEY_Reregister($id);"
+        },
+        {
+            "type": "Button",
+            "label": "Pseudo-Token",
+            "onClick": "echo EKEY_PseudoToken($id);"
+        },
+        {
+            "type": "Button",
+            "label": "ResetToken",
+            "onClick": "echo EKEY_ResetToken($id);"
+        }
+    ],
+    "status": [
+        {
+            "code": "102",
+            "caption": "Authorized"
+        },
+        {
+            "code": "104",
+            "caption": "Unauthorized"
+        }
+    ]
+}

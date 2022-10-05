@@ -1,0 +1,17 @@
+{
+    "id": "{F2119B24-21D9-130B-E3E9-90AA3C974C95}",
+    "name": "BionyxCloud",
+    "type": 1,
+    "vendor": "ekey",
+    "aliases": [
+        "bionyx Cloud"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [
+        "{65FFE758-91B8-DBFC-64AC-AF78DF10BC10}"
+    ],
+    "implemented": [
+        "{75771AE6-9936-98EB-42EE-B2BF45DA602A}"
+    ],
+    "prefix": "EKEY"
+}

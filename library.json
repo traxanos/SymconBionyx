@@ -1,0 +1,12 @@
+{
+    "id": "{5786A77E-8F88-F6F7-A435-A5588F1B5C3D}",
+    "author": "Marco Scholl",
+    "name": "SymconBionyx",
+    "url": "https://github.com/traxanos/SymconBionyx",
+    "version": "1.0",
+    "build": 0,
+    "date": 0,
+    "compatibility": {
+        "version": "6.0"
+    }
+}

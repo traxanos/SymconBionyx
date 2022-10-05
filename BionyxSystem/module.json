@@ -1,0 +1,17 @@
+{
+    "id": "{AA8627EC-677B-C500-CA78-0492EEADA1E7}",
+    "name": "BionyxSystem",
+    "type": 3,
+    "vendor": "ekey",
+    "aliases": [
+        "bionyx System"
+    ],
+    "parentRequirements": [
+        "{75771AE6-9936-98EB-42EE-B2BF45DA602A}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{65FFE758-91B8-DBFC-64AC-AF78DF10BC10}"
+    ],
+    "prefix": "EKEY"
+}
